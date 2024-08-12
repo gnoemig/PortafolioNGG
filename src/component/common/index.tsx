@@ -9,7 +9,7 @@ const Mainlayout = () => {
         <Navbar />
       </div>
       <div className=" lg:w-3/4 w-full">
-        {/* <Outlet /> */}
+        <Outlet />
       </div>
       
       
