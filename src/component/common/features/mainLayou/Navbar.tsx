@@ -20,7 +20,7 @@ const [exerciseOne, setExerciseOne] = useState(false);
           <li className={overhed}>Ejercicio 5</li>
         </ul>
       </div>
-      <div>{exerciseOne && <ExerciseOneCard />}</div>
+      <div className="flex justify-center items-center">{exerciseOne && <ExerciseOneCard />}</div>
     </div>
   );
 };

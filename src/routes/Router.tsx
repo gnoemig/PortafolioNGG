@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mainlayout from "../component/common";
-import { Home } from "../component/common/features/mainLayou/Home";
 import ExerciseOneCard from "../component/challenge/ExerciseOne-Card";
 
 const Router = () => {
